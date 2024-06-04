@@ -1,0 +1,1235 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    font-style: none;
+    background:#111111;
+}
+
+.alerta{
+    margin-right: 50px;
+    float: right;
+    padding: 5px;
+    font-size: 14px;
+    color: #ff5a5a;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    transition-duration: 300ms;
+}
+
+a:hover{
+    color: #888888;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content p {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #555;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdownAdmin {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-contentAdmin {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-contentAdmin a {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-contentAdmin p {
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-contentAdmin a:hover {
+    background-color: #555;
+}
+
+.dropdownAdmin:hover .dropdown-contentAdmin {
+    display: block;
+}
+
+#cabecera{
+    background: #111111;
+    height: 110px;
+    border-bottom: 2px solid white;
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 5px 0px 15px white;
+}
+#titulo{
+    display: block;
+    float: left;
+}
+
+#cabecera img{
+    margin-top: 5px;
+    float: left;
+    width: 100px;
+    height: auto;
+}
+
+#menuNav{
+    
+    display: block;
+}
+
+#menuNav ul li{
+    font-size: 18px;
+    list-style: none;
+    float: left;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+#nombre_cab{
+    width: 500px;
+    color: white;
+    display: block;
+    float: left;
+    font-size: 18px;
+}
+
+#nombre_cab p{
+    margin: 40px 20%;
+}
+
+#menuLogin{
+    display: block;
+}
+
+#menuLogin ul li{
+    font-size: 18px;
+    list-style: none;
+    float: right;
+    margin-top: 40px;
+    margin-right: 40px;
+}
+
+#fondo{
+    width: 100%;
+    height: 500px;
+}
+
+#portada{
+    background: url("../img/fondo.jpg");
+    padding-top: 100px;
+    padding-bottom: 30px;
+    width: 100%;
+    border-bottom: 3px solid white;
+
+}
+#titulo1{
+    padding-top: 9%;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 100px;
+    color: white;
+}
+
+#subtitulo{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
+
+#bSobreNosotros{
+    padding: 10px;
+    margin-left: 46%;
+    margin-top: 20px;
+    background: none;
+    border: 2px solid white;
+    border-radius: 30px;
+    font-size: 20px;
+    color: white;
+    transition-duration: 500ms;
+}
+
+#bSobreNosotros:hover{
+    background: white;
+    border: 2px solid black;
+    color: black;
+}
+
+#descripción{
+    margin-left: 17%;
+    width: 1000px;
+    margin-bottom: 5%;
+}
+#dTitulo{
+    margin-top: 10%;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#separador1{
+    border: 2px solid white;
+    width: 1000px;
+}
+
+#dTexto{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+#reglas{
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 3%;
+}
+
+
+
+#pTitulo{
+    font-weight: bold;
+    color: #111111;
+    text-align: center;
+    font-size: 30px;
+}
+
+#separador2{
+    border: 2px solid #111111;
+    width: 1000px;
+}
+
+#ireglas{
+    margin-top: 20px;
+    margin-left: 28%;
+    width: 700px;
+    height: auto;
+}
+
+#precios{
+    margin-bottom: 10%;
+}
+#precios p{
+    font-weight: bold;
+    margin-top: 6%;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+#separador3{
+    border: 2px solid white;
+    width: 1000px;
+}
+
+#precios ul{
+    margin-left: 20%;
+}
+#precios ul li{
+    float: left;
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+#separadorf{
+    border: 1px solid white;
+}
+
+#sitios{
+    color: white;
+    font-size: 30px;
+}
+
+footer ul li{
+    color: white;
+    list-style: none;
+}
+
+#copy{
+    text-align: center;
+    color: white;
+}
+
+/*login.php*/
+
+#formuL{
+    background: #111111;
+    display: block;
+    margin-top: 13%;
+    margin-left: 38%;
+    margin-bottom: 13%;
+    width: 400px;
+    height: 400px;
+    box-shadow: 0px 0px 30px 1px white;
+    border-radius: 30px;
+
+}
+
+#login{
+    padding-top: 20px;
+    padding-bottom: 25px;
+    background: url('../img/fondol.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#formuL p{
+    padding-top: 75px;
+    padding-left: 90px;
+    font-size: 30px;
+    color: white;
+}
+
+#formuL label{
+    margin-left: 10%;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: white;
+}
+
+#email{
+    margin-left: 10%;
+    padding: 5px;
+    font-size: 15px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+#password{
+    margin-left: 10%;
+    padding: 5px;
+    font-size: 15px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+#blogin{
+    text-align: center;
+    font-size: 15px;
+    display: block;
+    margin-top: 15px;
+    margin-left: 38%;
+    width: 80px;
+    background: none;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: white;
+    transition-duration: 300ms;
+}
+
+#blogin:hover{
+    background: white;
+    color: #111111;
+    border: 2px solid #111111;
+
+}
+
+/*signin.php*/
+#formuS{
+    background: #111111;
+    display: block;
+    margin-top: 13%;
+    margin-left: 38%;
+    margin-bottom: 13%;
+    width: 400px;
+    height: 525px;
+    box-shadow: 0px 0px 30px 1px white;
+    border-radius: 30px;
+}
+#formuS label{
+    margin-left: 10%;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: white;
+}
+
+#nombreS{
+    margin-left: 10%;
+    padding: 5px;
+    font-size: 15px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+#apellidosS{
+    margin-left: 10%;
+    padding: 5px;
+    font-size: 15px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+#emailS{
+    margin-left: 10%;
+    padding: 5px;
+    font-size: 15px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+#passwordS{
+    margin-left: 10%;
+    padding: 5px;
+    font-size: 15px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+#password2S{
+    margin-left: 10%;
+    padding: 5px;
+    font-size: 15px;
+    width: 300px;
+    border-radius: 15px;
+
+}
+
+#formuS p{
+    padding-top: 20px;
+    padding-left: 85px;
+    font-size: 30px;
+    color: white;
+}
+
+#bsign{
+    text-align: center;
+    font-size: 15px;
+    display: block;
+    margin-top: 15px;
+    margin-left: 40%;
+    width: 80px;
+    background: none;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: white;
+    transition-duration: 300ms;
+}
+
+#bsign:hover{
+    background: white;
+    color: #111111;
+    border: 2px solid #111111;
+
+}
+
+
+h1 {
+    margin-top: 10%;
+    color: white;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th{
+    text-align: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+td {
+    text-align: center;
+    padding: 10px;
+    
+    border-bottom: 1px solid #ddd;
+    color: #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+#busU input{
+    padding: 5px;
+    font-size: 15px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+#busU button{
+    border: none;
+    border-radius: 15px;
+    padding: 7px;
+}
+
+/*ver_datos.php*/
+
+#mis_datos{
+    margin-top: 10%;
+}
+
+#mis_datos p{
+    color: white;
+}
+
+#formu-editar_datos{
+    background: #111111;
+    display: block;
+    margin-top: 13%;
+    margin-left: 38%;
+    margin-bottom: 13%;
+    width: 400px;
+    height: 525px;
+    box-shadow: 0px 0px 30px 1px white;
+    border-radius: 30px;
+}
+#formu-editar_datos label{
+    margin-left: 10%;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: white;
+}
+
+#nombre-editar_datos{
+    margin-left: 10%;
+    padding: 5px;
+    font-size: 15px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+#apellidos-editar_datos{
+    margin-left: 10%;
+    padding: 5px;
+    font-size: 15px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+#email-editar_datos{
+    margin-left: 10%;
+    padding: 5px;
+    font-size: 15px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+#password-editar_datos{
+    margin-left: 10%;
+    padding: 5px;
+    font-size: 15px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+#formu-editar_datos p{
+    padding-top: 20px;
+    padding-left: 85px;
+    font-size: 30px;
+    color: white;
+}
+
+#b-editar_datos{
+    text-align: center;
+    font-size: 15px;
+    display: block;
+    margin-top: 15px;
+    margin-left: 40%;
+    width: 80px;
+    background: none;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: white;
+    transition-duration: 300ms;
+}
+
+#b-editar_datos:hover{
+    background: white;
+    color: #111111;
+    border: 2px solid #111111;
+    
+}
+
+#rol-editar_datos{
+    margin-left: 10%;
+    padding: 7px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+#salas{
+    margin-top: 10%;
+}
+
+#salas p{
+    color: white;
+}
+
+.bloque_salas{
+
+    height: 260px;
+    width: 300px;
+    margin: 50px;
+    padding: 20px;
+    display: block;
+    float: left;
+    border: 2px solid white;
+}
+
+.nombre_sala{
+    color: white;
+    text-align: center;
+}
+
+.categoria_sala{
+    display: block;
+    float: right;
+}
+
+.dimensiones_sala{
+    display: block;
+    float: left;
+}
+
+.descripción_sala{
+    display: block;
+    margin-top: 75px;
+    text-align: justify;
+}
+
+.botones_salas{
+    float: left;
+    width: 300px;
+}
+
+.botones_salas li{
+    border: 1px solid white;
+    padding: 3px;
+    margin: 3px;
+    display: block;
+    float: left;
+    list-style: none;
+    transition-duration: 300ms;
+}
+
+.botones_salas li:hover{
+    background-color: white;
+    color: black !important;
+}
+
+/*VER_SALA.PHP*/
+
+#titulo_ver_sala{
+    margin-bottom: 3px !important;
+}
+#ver_sala{
+    display: block;
+    float: left;
+    width: 40%;
+    margin-right: 10%;
+}
+
+#ver_sala p{
+    color: white;
+}
+
+#ver_sala h2{
+    text-align: center;
+    margin-top: 10%;
+}
+#reseñas{
+    display: block;
+    width: 40%;
+    float: left;
+}
+
+
+#reseñas p, h3, h2{
+    color: white;
+}
+
+.datos_sala{
+    display: block;
+    width: 50%;
+    float: left;
+}
+.valoracion_media{
+
+    display: block;
+    width: 50%;
+    margin-left: 85%;
+}
+
+.valoracion_sala{
+    display: block;
+    font-size: 30px;
+    
+}
+
+.bvalorar{
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 15px 15px 15px 15px;
+
+}
+
+.bvalorar:hover{
+    color: black !important;
+    background-color: white;
+}
+
+.descripcion{
+    display: block;
+    padding-top: 5%;
+}
+
+
+/*VALORAR_SALAS.PHP*/
+
+#valoracion{
+    background: #111111;
+    display: block;
+    margin-top: 13%;
+    margin-left: 38%;
+    margin-bottom: 13%;
+    width: 400px;
+    height: 400px;
+    box-shadow: 0px 0px 30px 1px white;
+    border-radius: 30px;
+}
+
+#valoracion h3{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+#valoracion label{
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: white;
+
+}
+#valor{
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    padding: 5px;
+    font-size: 15px;
+    width: 100px;
+    border-radius: 15px;
+}
+
+#comentario{
+    margin-left: 10%;
+    padding: 5px;
+    font-size: 15px;
+    width: 300px;
+    height: 150px;
+    border-radius: 15px;
+    resize: none; /* Para evitar que el usuario redimensione */
+    overflow-y: hidden;
+}
+
+#bvalorar{
+    text-align: center;
+    font-size: 15px;
+    display: block;
+    margin: 15px auto;
+    width: 130px;
+    background: none;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: white;
+    transition-duration: 300ms;
+}
+
+#bvalorar:hover{
+    background: white;
+    color: #111111;
+    border: 2px solid #111111;
+
+}
+
+/*LISTA_MIS_RESERVAS.php*/
+
+#mis_reservas{
+    display: block;
+    margin-top: 5%;
+}
+
+
+/*SALA_AÑADIDA.PHP*/
+
+#formuAS{
+    background: #111111;
+    display: block;
+    margin-top: 13%;
+    margin-left: 38%;
+    margin-bottom: 13%;
+    width: 400px;
+    height: 560px;
+    box-shadow: 0px 0px 30px 1px white;
+    border-radius: 30px;
+}
+#formuAS label{
+    margin-left: 10%;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: white;
+}
+
+#a_nombre{
+    margin-left: 10%;
+    padding: 5px;
+    font-size: 15px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+#a_categoria{
+    margin-left: 10%;
+    padding: 5px;
+    font-size: 15px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+#a_dimensiones{
+    margin-left: 10%;
+    padding: 5px;
+    font-size: 15px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+#a_descripcion{
+    margin-left: 10%;
+    padding: 5px;
+    font-size: 15px;
+    width: 300px;
+    height: 150px;
+    border-radius: 15px;
+    resize: none; /* Para evitar que el usuario redimensione */
+    overflow-y: hidden;
+}
+
+#formuAS p{
+    padding-top: 20px;
+    padding-left: 85px;
+    font-size: 30px;
+    color: white;
+}
+
+#bañadir{
+    text-align: center;
+    font-size: 15px;
+    display: block;
+    margin: 15px auto;
+    width: 100px;
+    background: none;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: white;
+    transition-duration: 300ms;
+}
+
+#bañadir:hover{
+    background: white;
+    color: #111111;
+    border: 2px solid #111111;
+
+}
+
+/*SALA_AÑADIDA.PHP*/
+
+#formuES{
+    background: #111111;
+    display: block;
+    margin-top: 13%;
+    margin-left: 38%;
+    margin-bottom: 13%;
+    width: 400px;
+    height: 560px;
+    box-shadow: 0px 0px 30px 1px white;
+    border-radius: 30px;
+}
+#formuES label{
+    margin-left: 10%;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: white;
+}
+
+#e_nombre{
+    margin-left: 10%;
+    padding: 5px;
+    font-size: 15px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+#e_categoria{
+    margin-left: 10%;
+    padding: 5px;
+    font-size: 15px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+#e_dimensiones{
+    margin-left: 10%;
+    padding: 5px;
+    font-size: 15px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+#e_descripcion{
+    margin-left: 10%;
+    padding: 5px;
+    font-size: 15px;
+    width: 300px;
+    height: 150px;
+    border-radius: 15px;
+    resize: none; /* Para evitar que el usuario redimensione */
+    overflow-y: hidden;
+}
+
+#formuES p{
+    padding-top: 20px;
+    padding-left: 85px;
+    font-size: 30px;
+    color: white;
+}
+
+#beditar{
+    text-align: center;
+    font-size: 15px;
+    display: block;
+    margin: 15px auto;
+    width: 100px;
+    background: none;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: white;
+    transition-duration: 300ms;
+}
+
+#beditar:hover{
+    background: white;
+    color: #111111;
+    border: 2px solid #111111;
+
+}
+
+/*RESERVAR_SALA.PHP*/
+
+#bloque_reserva{
+    background: #111111;
+    display: block;
+    margin-top: 16%;
+    margin-left: 38%;
+    margin-bottom: 13%;
+    width: 400px;
+    height: 300px;
+    box-shadow: 0px 0px 30px 1px white;
+    border-radius: 30px;
+}
+
+#bloque_reserva label{
+    margin-left: 10%;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: white;
+}
+
+#bloque_reserva h3{
+    padding-top: 30px;
+    padding-left: 90px;
+    font-size: 30px;
+    color: white;
+}
+
+#rfecha{
+    margin-left: 10%;
+    padding: 5px;
+    font-size: 15px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+#rnum_personas{
+    margin-left: 10%;
+    padding: 5px;
+    font-size: 15px;
+    width: 80px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#breserva{
+    display: block;
+    background: #111111;
+    border: 2px solid white;
+    border-radius: 15px;
+    color: white;
+    padding: 5px;
+    margin: 20px auto;
+    transition-duration: 300ms;
+} 
+
+#breserva:hover{
+    background: white;
+    color: #111111;
+    border: 2px solid #111111;
+}
+
+/*EDITAR_RESERVA.PHP*/
+
+#bloque_reserva_edit{
+    background: #111111;
+    display: block;
+    margin: 15% auto;
+    width: 400px;
+    height: 300px;
+    box-shadow: 0px 0px 30px 1px white;
+    border-radius: 30px;
+    padding-top: 30px;
+}
+
+#bloque_reserva_edit label{
+    margin-left: 10%;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: white;
+}
+
+#efecha{
+    margin-left: 10%;
+    padding: 5px;
+    font-size: 15px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+#enum_personas{
+    margin-left: 10%;
+    padding: 5px;
+    font-size: 15px;
+    width: 80px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#ebreserva{
+    display: block;
+    background: #111111;
+    border: 2px solid white;
+    border-radius: 15px;
+    color: white;
+    padding: 5px;
+    margin: 20px auto;
+    transition-duration: 300ms;
+} 
+
+#ebreserva:hover{
+    background: white;
+    color: #111111;
+    border: 2px solid #111111;
+}
+
+/*HORAS_DISPONIBLES.PHP*/
+
+.formHD{
+    background: #111111;
+    display: block;
+    margin-top: 15%;
+    margin-left:38%;
+    width: 400px;
+    height: 350px;
+    box-shadow: 0px 0px 30px 1px white;
+    border-radius: 30px;
+    padding-top: 5px;
+}
+
+.formHD p{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.formHD label{
+    
+    color: white;
+}
+.hora{
+
+    margin-left: 42%;
+}
+
+.formHD input[type="submit"]{
+    display: block;
+    background: #111111;
+    border: 2px solid white;
+    border-radius: 15px;
+    color: white;
+    padding: 5px;
+    margin: 20px auto;
+    transition-duration: 300ms;
+}
+
+.formHD input[type="submit"]:hover{
+    background: white;
+    color: #111111;
+    border: 2px solid #111111;
+}
+
+/*EDITAR_CATEGORIA_ADMIN.PHP*/
+
+.formuEC{
+    background: #111111;
+    display: block;
+    margin-top: 16%;
+    margin-left: 38%;
+    margin-bottom: 13%;
+    width: 400px;
+    height: 250px;
+    box-shadow: 0px 0px 30px 1px white;
+    border-radius: 30px;
+}
+.formuEC label{
+    margin-left: 10%;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    color: white;
+}
+
+.ec_nombre{
+    margin-left: 10%;
+    padding: 5px;
+    font-size: 15px;
+    width: 300px;
+    border-radius: 15px;
+}
+
+.formuEC p{
+    padding-top: 20px;
+    padding-left: 55px;
+    font-size: 30px;
+    color: white;
+}
+
+.ebcategoria{
+    text-align: center;
+    font-size: 15px;
+    display: block;
+    margin: 20px auto;
+    padding: 5px;
+    background: none;
+    border: 2px solid white;
+    border-radius: 30px;
+    color: white;
+    transition-duration: 300ms;
+}
+
+.ebcategoria:hover{
+    background: white;
+    color: #111111;
+    border: 2px solid #111111;
+
+}
+
+/*VER_DATOS*/
+#beditar_misdatos{
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 15px;
+    transition-duration: 300ms;
+}
+
+#beditar_misdatos:hover{
+    background-color: white;
+    color: black;
+}
+
+#eliminar-cuenta{
+    border: 1px solid #550000;
+    background: #aa0000;
+    padding: 5px;
+    border-radius: 15px;
+    transition-duration: 300ms;
+}
+
+#eliminar-cuenta:hover{
+    border: 2px solid #ffffff;
+    background-color: #ff0000;
+    color: white;
+}
